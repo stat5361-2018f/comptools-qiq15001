@@ -20,9 +20,11 @@ At the very beginning, when I tried to install rmarkdown and bookdown, I was ask
 
 In the process of compiling to html file, there were some error messages about lack of some R packages. I googled and installed those packages via "install.packages()" or "devtools::install_github("hadley/**")".
 
-Error mesaages also showed that Xcode and Xquartz are required, so I just installed them.
+Error mesaages also showed that Xcode, Xquartz and pandoc are required, so I just installed them.
 
-Then I successfully compiled html version of this book. However, in the process to compile pdf file, there was an error message: "! Missing { inserted.
+Then I successfully compiled html version of this book. 
+
+However, in the process to compile pdf file, there was an error message: "! Missing { inserted.
 <to be read again> 
                    \__um_group_begin: 
 l.13355 \(f_\mathbf
@@ -37,4 +39,4 @@ Here is how much of TeX's memory you used:
  60i,8n,117p,10414b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Error: Failed to compile _main.tex. See _main.log for more info.
-". I googled and tried in many ways but still couldn't figure it out. Prof.Yan suggested me uninstall mactex and install tinytex. After I did so, I finally got the pdf version of this book.
+". I thought this might be caused by some latex package problem. Then I googled and tried in many ways but still couldn't figure it out. Prof.Yan suggested me uninstall mactex and install tinytex. After I did so, I finally got the pdf version of this book.
