@@ -37,6 +37,7 @@ Here is how much of TeX's memory you used:
  536751 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,8n,117p,10414b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
-
 Error: Failed to compile _main.tex. See _main.log for more info.
-". I thought this might be caused by some latex package problem. Then I googled and tried in many ways but still couldn't figure it out. Prof.Yan suggested me uninstall mactex and install tinytex. After I did so, I finally got the pdf version of this book.
+". 
+
+I thought this might be caused by some latex package problem. Then I googled and tried in many ways but still couldn't figure it out. Prof. Yan suggested me uninstall mactex and install tinytex. After I did so, I finally got the pdf version of this book.
